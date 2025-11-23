@@ -1,0 +1,26 @@
+{
+  "name": "Cinescript.BV",
+  "short_name": "Cinescript",
+  "description": "Industrial-grade storyboard and shot management tool.",
+  "id": "/?source=pwa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "categories": ["productivity", "entertainment", "video"],
+  "icons": [
+    {
+      "src": "/image.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/image.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

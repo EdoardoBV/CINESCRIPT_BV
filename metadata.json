@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Cinescript.BV PYTHON VERSION",
+  "description": "Industrial-grade storyboard and shot management tool for film productions, powered by Gemini AI for intelligent shot generation and image editing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
