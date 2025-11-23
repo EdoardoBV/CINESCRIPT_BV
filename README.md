@@ -54,9 +54,13 @@ git clone https://github.com/yourusername/cinescript-bv.git
 cd cinescript-bv/CINESCRIPT_DESKTOP
 ```
 
-> Note: You need a valid Google Gemini API key to use the AI features.
+ 2. Install Dependencies
 
-4. Run Locally (Development)
+```bash
+npm install
+```
+
+3. Run Locally (Development)
 
 To start the application in development mode with hot-reloading:
 
@@ -64,7 +68,7 @@ To start the application in development mode with hot-reloading:
 npm run electron:dev
 ```
 
-5. Build for Production
+4. Build for Production
 
 To create a distributable installer for your operating system (Windows/Mac/Linux):
 
@@ -100,18 +104,21 @@ CINESCRIPT_DESKTOP/
 2.  Configure Scenes: Navigate to Scene Settings to define the location, time of day, and script notes.
 3.  Create Shots: Go to the Shot Editor. Add new shots and define their technical specifications (Lens, Angle, Movement).
 4.  Visualize with AI:
-    *   Click the "Generate Image" button in the Shot Editor.
+    *   Click the "Generate Image" button in the Shot Editor.
     *   Enter a prompt describing the shot.
     *   Let Gemini AI generate a visual reference for your storyboard.
-5.  Export: Use the Project Settings to export your shot list as a CSV file for your crew.
+      
+    > Note: You need a valid Google Gemini API key to use the AI features.
+    
+6.  Export: Use the Project Settings to export your shot list as a CSV file for your crew.
 
 🤝 Contributing
 Contributions are welcome! Please follow these steps:
 
 1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
+2.  Create a new branch. 
+3.  Commit your changes.
+4.  Push to the branch. 
 5.  Open a Pull Request.
 
 📄 License
